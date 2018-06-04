@@ -31,4 +31,8 @@ function redirectToGoogle(){
 
 }
 
+$('#addText4').click(function(event){
+	var paragraph = $('<p>').text('Hello world')
+	$('#task4a').append(paragraph)
+})
 /* Task 4 using jQuery */
